@@ -27,7 +27,7 @@ steps_Interval[which.max(steps_Interval$steps),]$interval
 CalStep<-function(interval){
   steps_Interval[steps_Interval$interval==interval,]$steps
 }
-# Calculate and report the total nmber of missing values in the dataset
+# Calculate and report the total number of missing values in the dataset
 sum(is.na(activity$steps))
 
 # Filling the missing values in the dataset
